@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/png" href="./assign-images/codepen2.png">
+	<title>Good vibes form</title>
+	<link rel="stylesheet" type="text/css" href="./goodvibeform.css"></link>
+
+</head>
+<body>
+	<header>
+		<div class="root-image"><img src="./assign-images/codepen1.png" height="100px" width="100px"></div>
+
+<div class="item-details-root">
+		 <p class="root-title">Good Vibes Form</p>
+		<div class="item-root-links"><a href="#">Laurence</a>
+		<a href="#">+ Follow</a></div>
+		</div>
+		<div id="header-right"> 
+			<button id="favourite">"icon:"</button>
+			<button>Change view</button>
+			<button>Sign up</button>
+			<button>Log in </button>
+		</div>
+
+	</header>
+	<main>
+		<div id="full-section">
+			<h1>Good Vibes Form</h1>
+
+		
+		<div id="main-section">
+		<form>
+			<p class="sub-heading">Tell me something positive that happened to you today.</p>
+			<div><label>Name
+			<input type="text" name="name" placeholder="Enter your name">
+			</label></div>
+			<div><label>Email
+			<input type="Email" name="email" placeholder="Enter your email address"> 
+			</label></div>
+			<div><label>On a scale of 1-10, how good was it?
+			<input type="number" name="number" min="1" max="10">
+			</label></div>
+			 <div><label for="place">Where did it happen
+			 <select id="place" name="place">
+			 	<option value="home">At Home</option>
+			 	<option value="commute">On my Commute</option>
+			 	<option value="work">At Work</option>
+			 	<option value="street">On the Street</option>
+			 	<option value="other">Other</option>
+			 </label>
+			 </select>
+			 </div>
+			 <div>
+			 <ul class="list-wise">
+			 	<li><label>At what time of the day did it happen?</label></li>
+			 	<li><label><input type="radio" name="time" value="Morning">Morning</label></li>
+
+			 	<li><label><input type="radio" name="time" value="Afternoon">Afternoon</label></li>
+
+			 	<li><label><input type="radio" name="time" value="Evening">Evening</label></li>
+			 	</ul>
+			 </div>
+			 <div><label>What emotions did you experience?<br>(Select all that apply)</label>
+			 <ul class="list-wise">
+			<li> <label><input type="checkbox" name="emotions" value="excited">Excited</label></li>
+			 <li><label><input type="checkbox" name="emotions" value="humbled">Humbled</label></li>
+			 <li> <label><input type="checkbox" name="emotions" value="elated">Elated</label></li>
+			 <li>  <label><input type="checkbox" name="emotions" value="ethusiastic">Enthusiastic</label></li>
+			 <li>   <label><input type="checkbox" name="emotions" value="loved">Loved</label></li>
+			    </ul>
+			 </div>
+			 <div><label>Please describe your positive experience</label>
+			 <textarea placeholder="Enter your experience here..."></textarea>
+			 </div>
+			 <div><input type="submit" name="submit" value="submit"></div>
+		</form>
+		</div>
+		</div>
+	</main>
+</body>
+</html>
